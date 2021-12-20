@@ -10,7 +10,7 @@ class Home extends React.Component {
        
     }}
     componentDidMount() {
-        axios.get('http://127.0.0.1/phpArray/data.php')
+        axios.get('http://127.0.0.1/react/my-app/src/data.php')
             .then(res => 
         {
           this.setState({data: res.data});
